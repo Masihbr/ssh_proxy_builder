@@ -1,5 +1,9 @@
 @echo off
-call config.cmd
+
+if "%cd%" neq "%USERPROFILE%\Proxy Settings" (
+xcopy /s /e /y /r /q "../Proxy Settings" "C:/Users/Masih/Proxy Settings\"
+cd "%USERPROFILE%/Proxy Settings/"
+)
 
 (
 echo Set sh = CreateObject^("WScript.Shell"^)
