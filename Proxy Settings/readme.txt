@@ -1,10 +1,10 @@
-install bitvise ssh client
+Install bitvise ssh client
 
-put this folder in C:\Users\***YOUR_WINDOWS_USERNAME***\
+put this folder in C:\\Users\\**YOUR_WINDOWS_USERNAME**\\
 
 run build.cmd
 
-some shortcuts apear on your desktop
+some shortcuts will show up on your desktop
 
 ---
 
