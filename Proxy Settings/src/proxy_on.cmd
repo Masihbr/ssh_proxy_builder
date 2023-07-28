@@ -1,5 +1,5 @@
 echo off
-call "C:\Users\%windows_username%\Proxy Settings\config.cmd"
+call "%USERPROFILE%\Proxy Settings\config.cmd"
 cls
 
 for /f "skip=2 tokens=3 delims= " %%R in ('reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable') do (
@@ -36,5 +36,5 @@ echo.
 goto end
 
 :end
-"C:\Users\%windows_username%\Proxy Settings\change_shortcut_off.vbs"
+"%USERPROFILE%\Proxy Settings\change_shortcut_off.vbs"
 

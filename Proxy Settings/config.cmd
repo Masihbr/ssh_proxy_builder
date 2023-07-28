@@ -1,10 +1,6 @@
 @echo off
 
 REM INSTALL "bitvise ssh client"
-
-REM YOU SHOULD PUT THE FOLDER "Proxy Settings" IN "C:\Users\***YOUR_USERNAME***\"
-set windows_username=?
-
 REM FILL THESE WITH YOUR CONFIG INFO
 set proxy_username=?
 set host_ip=?
