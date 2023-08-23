@@ -1,6 +1,6 @@
 echo off
 call "%USERPROFILE%\Proxy Settings\config.cmd"
-cls
+
 for /f "skip=2 tokens=3 delims= " %%R in ('reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable') do (
  set "reg_value=%%R"
 )
