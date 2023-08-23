@@ -1,7 +1,7 @@
 @echo off
 
 if "%cd%" neq "%USERPROFILE%\Proxy Settings" (
-xcopy /s /e /y /r /q "../Proxy Settings" "C:/Users/Masih/Proxy Settings\"
+xcopy /s /e /y /r /q "../Proxy Settings" "%USERPROFILE%/Proxy Settings\"
 cd "%USERPROFILE%/Proxy Settings/"
 )
 
