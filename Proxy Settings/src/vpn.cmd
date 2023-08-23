@@ -6,6 +6,7 @@ if exist stnlc (
 echo stnlc is okay!
 ) else (
 echo YOU NEED TO DOWNLOAD AND INSTALL "bitvise ssh client" THEN RUN THE SCRIPT AGAIN!
+@pause
 exit /b
 )
 
