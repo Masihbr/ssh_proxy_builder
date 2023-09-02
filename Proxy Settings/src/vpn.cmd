@@ -17,7 +17,7 @@ if "%~1" neq "_start_" (
   :loop
   echo CONNECTED...
   stnlc -unat %proxy_username%@%host_ip%:%host_port% -pw=%proxy_password% -proxyListPort=%proxy_port% -proxyFwding=y | find "ERROR" && (
-    timeout %wait_time%
+    timeout /T %wait_time%
     set /A "wait_time=3"
     goto loop
   )
